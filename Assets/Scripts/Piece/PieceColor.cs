@@ -29,7 +29,7 @@ public class PieceColor : MonoBehaviour
     {
         //TODO
         // set spriteRenderer.sprite to a random sprite that is present above
-        
-        //spriteRenderer.sprite = ???;
+
+        spriteRenderer.sprite = blueColor;
     }
 }

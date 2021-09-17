@@ -16,7 +16,18 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private EdgeCollider2D border;
 
+    [SerializeField]
+    private Ball ballPrefab;
+
 
     //TODO
     //Using const data defined above "Instantiate" new pieces to fill the view with
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(ballPrefab);
+        }
+    }
 }
