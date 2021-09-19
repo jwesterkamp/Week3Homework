@@ -169,6 +169,7 @@ MonoBehaviour:
   pieces: {fileID: 1732338364}
   piecePrefab: {fileID: 8077418168103428989, guid: 0cd4da7924b49154a90ec28bad24910b, type: 3}
   border: {fileID: 591006726}
+  ballPrefab: {fileID: 1349314723224592999, guid: ccd761382e694194ca8988147394f9d2, type: 3}
 --- !u!1 &134943263
 GameObject:
   m_ObjectHideFlags: 0
